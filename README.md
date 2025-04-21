@@ -63,7 +63,7 @@ For collaboration, investment, or questions:
 
 **Brett Jones**
 
-📧 [Insert preferred contact email or link]
+📧 brett.jonesnz@gmail.com
 
 🌐 [Optional: Notion link, personal site, or GitHub Discussions]
 

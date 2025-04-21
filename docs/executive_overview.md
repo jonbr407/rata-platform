@@ -24,101 +24,104 @@ Summarise what Rātā is, why it exists, and what you're building.
 - [x]  Explains who it helps and why
 - [x]  Inspires curiosity/excitement
 - [x]  Works for both tech and non-tech readers
-- [ ]  Ready to sync with GitHub → `overview.md`
+- [x]  Ready to sync with GitHub → `overview.md`
 
 ---
-
-### ✍️ Current Draft:
-
-Rātā is a data capture and operations platform built for New Zealand’s pest control industry — not because that’s where it ends, but because that’s the perfect place to prove what it’s capable of.
-
-Rātā streamlines rural fieldwork by combining a photo-based mobile app with a live mapping and task dashboard. Field operators collect visual data directly from the bush using a lightweight app built to work offline. That data is then automatically timestamped, geotagged, and displayed on a central map interface at base. This gives managers, contractors, team leaders, and clients a live view of progress — from trap locations to completed tasks — all in one shared map interface.
-
-The platform is being built by people who understand the field — with deep knowledge of the real workflows, pain points, and productivity issues faced by pest control contractors across Aotearoa. Unlike generic task apps or government portals, Rātā is built for the way pest control actually works in the wild. It prioritises image-first data, offline sync, fast UX, and preset data tags to help field operators quickly and efficiently gather valuable data that fuels new tools and services — including future offerings on Rātās own marketplace.
-
-While the MVP targets pest control, the platform is designed to scale. Any industry with field-based work — including environmental research, exploration, or rural asset management — can use Rātā to capture clean data and manage it through our unified dashboard. Future plans include Rātā Lite for small operators and subscription-based advanced tiers like Rātā Pro and Rātā Pest, which will offer AI-assisted task automation, smart trap integrations, and deep reporting.
-
-In a world of growing uncertainty where ecosystems are becoming more unstable, one thing remains constant — the need for better coordination and smarter management systems to help humans scale land operations as efficiently as possible. Every productivity gain here matters.
 
 ### ✍️ Previous Draft:
 
-### 🔖 Core Idea
+# 🔖 Rātā Executive Overview
 
-- Rātā is a **data capture and management platform** built for New Zealand’s pest control industry.
-- It combines a mobile app, real-time mapping, and a command interface to centralize fieldwork data and reduce manual admin.
-- Designed for offline fieldwork, live tracking, and future integrations like AI and trap telemetry.
-
-**Your Edits:**
-
-- [ ]  Rātā is intended as a **data capture and management platform** built for New Zealand’s pest control industry, although it will likely see use as a generalised field data collection and management tool for other industries who share a similar work flow to rural pest operations. Field research and exploration focused companies will also be able to use this platform to manage their workflows.
-- It combines a mobile data collection and mapping app with a desktop ‘field view’ interface to centralize fieldwork data and reduce manual admin currently associated with pest operation workflows. Things like automated client reporting and visualisation, task assignment, job estimation calculations and field worker performance enhancing are all possible with the Rātā platform. Its long run aim is to increase the productivity of field operations by learning from pest control work contractors data and building a more efficient system.
-- Rātās core value proposition is its ability to force its field users to capture and annotate images as part of their daily routines. A large part of the value proposition for Rata is its ability to capture and store clean data to use for decision making and task automation.
-- Designed from the outset by a field worker to be future proofed for the challenges of remote rural pest control operations and an ever increasing technological future. Core features the platform is designed around are offline fieldwork, live tracking, and futureproofing the platform for integrations like AI computer vision models and trap telemetry.
-- Designed with future hardware and always online capabilities in mind, but optimised for current gen hardware and offline data collection, Rātā aims for ease of adoption in mind at the MVP stage but scalability in mind for the future. As Rātā matures, these original features designed around current technology limits will become the basis for a Rātā Lite version while the features developed from the data collected on the platform will influence the direction of paid tiers, Rātā Pro and Rātā Pest etc.
+**Rātā is a data capture and operations platform built specifically for New Zealand’s pest control industry—not because that’s where it stops, but because that’s the ideal place to prove what it’s capable of.**
 
 ---
 
-### 🔖 Pain Point
+## 🧰 Core Platform
 
-- Pest control operations are using **fragmented, outdated systems**.
-- Field data is often siloed, lost, or poorly formatted.
-- There’s **no shared platform** across field workers, managers, and clients — this leads to inconsistent delivery, higher costs, and loss of confidence.
-
-**Your Edits:**
-
-- [ ]  Pest control operations are using fragmented outdated systems. These systems can be costly for companies and moves more resources out of the field and into the office which limits scalability.
-- [ ]  There is often mistakes made from the current data capture tools and human error in using them that require time from specialised IT team members to be able to fix the errors.
-- [ ]  Current data capture tools frequently have errors that cannot be fixed without specialised knowledge.
-- [ ]  Current data capture tools aren’t always optimised to be as efficient as possible for field operators, they often impact work flows and sense of rhythm in the field.
-- [ ]  There is no unified shared system that easily lets all stake holders, from funders to land owners and contractors, a view to see how the operations are progressing.
-- [ ]  There is no unified task management tool created for pest control operations to assign tasks or track gear in the field. Tasks are all still assigned manually and inventories are catalogued in a way where human error leads to inaccurate management of resources.
-- [ ]  There is no tool for outdoor pest operations to visually locate team mates on a map. In the field, all coordination is done with auditory instructions over radio or mobile, leading to less than efficient coordination at times.
+The platform combines a mobile app for fast, photo-based data capture with a live mapping and task dashboard used by contractors, managers, and clients. Operators use a lightweight, offline-first app to record trap deployments, toxin placement, and the location of field operators, vehicles, and equipment in real time. Each photo entry is tagged with preset data fields and geotagged with a timestamp, then automatically synced to a central map view. This gives everyone involved—from the field team to the office to landowners and client stakeholders—a shared, up-to-date picture of operational progress.
 
 ---
 
-### 🔖 How Rātā Fixes It
+## 🎯 Built for the Field
 
-- Operators use a **Snapchat-style mobile app** to collect images and task data in the field.
-- Data is **automatically tagged with time, GPS, and task type**.
-- A web-based command UI shows **live maps, task progress, trap locations, and photo logs**.
-- The system is **built for integration**: barcode scanners, smart traps, AI insights, drone footage, external reporting systems.
-- It gives every layer of the pest control chain a **shared, accurate operational view**.
-
-**Your Edits:**
-
-- [ ]  …Humans are predominantly rely on their vision, we are able to digest information easier when visualised. Operators use a snapchat style mobile app to collect images and task data in the field, navigate and relay information to other team members.
-- [ ]  Data is automatically tagged with time GPS and task type if pre set task enabled.
-- [ ]  App is designed to minimise clicks as much as possible for field operator gathering data, and operate on the principle of can a field operator complete all steps of a task with only one hand if possible?
-- [ ]  The snapchat field data app relays all its data a central command screen back at base, where the data will be overlaid on a 3D field map of the worksite. Similar to google earth, the command screen will have similar features and add overlays to show traps, ferratox bag placement and any other data you wish to capture.
-- [ ]  The system will be built for security, but will feature a method to be able to connect smart devices to the network, allowing field operators and central command to be able to view their devices status from the application, similar to how devices might connect to a smart home system.  Barcode scanners, smart traps, AI insights, drone footage, external reporting systems are all intended features in future development stages.
-- [ ]  it gives every layer of the operational control chain a **shared, accurate operational view**.
-- [ ]  It futureproofs for a time when intelligence gathering through thermal camera, drone and ai based pest detection technology becomes more mature by building a system based around image based classification models as a core business strategy post MVP.
+Unlike generic task apps or government portals, Rātā is purpose-built around real, flexible workflows used by pest control operators in Aotearoa. It integrates image collection into everyday task entries, ensuring clean, verifiable data while minimising duplication or extra effort in the field. Every design decision has been made with the field operator and data collection in mind—streamlining task entry through intuitive UI, low-barrier tags, and built-in offline capability.
 
 ---
 
-### 🔖 Who Benefits & Why Now
+## ✅ Passive Standards Enforcement
 
-- **Field Operators**: Workflow gets more efficient through more intuitive tools and easier navigation and location tools. Also captures more, and better quality data than previously.
-- **Project Managers**: can track live progress, reroute work, and enforce quality standards.
-- **Contractors**: clean reporting helps win and retain contracts.
-- **Landowners & Clients**: better visibility = stronger trust. More chance to engage with stakeholders in a medium that makes the challenges of the job easier to communicate.
-- **Why Now**: Pest control work is vital and necessary in New Zealand, insuring the constant need for better and more efficient systems to tackle the challenges posed by operational scalability. A platform like this is long overdue.
-
-**Your Edits:**
-
-- [ ]  …
+Requiring images as part of core workflows has an additional effect: passive enforcement of quality standards. It’s difficult to submit bad data when there’s a photo attached. This tackles a long-standing issue in the industry, where maintaining consistency across contractors and crews currently requires expensive and time-consuming manual verification by both contractor leads and client-side supervisors. Rātā solves this quietly in the background by making verification part of the workflow itself. In time, those images will be used to train AI solutions for other industry manual tasks, like cost tracking and inventory automation.
 
 ---
 
-### 🔖 Vision (1–3 Years)
+## 🛠️ Scalable Architecture
 
-- In 1 year: Field trials are complete. Rātā is being used on live projects with positive feedback.
-- In 3 years: Rātā becomes the **go-to platform for pest ops** in NZ, used by contractors, councils, DOC, and researchers. Ai and productivity tools are being tested in the field, research is being conducted into field operation productivity and field operator compensation models.
-- The long-term vision is a **marketplace platform**: where tools, AI systems, sensors, and datasets plug into Rātā to streamline pest control globally. As well as pest control, Rātā aims to hold solutions for other industries that find the model compatible for their needs, opening up a market for research and exploration or any other industry that can tailor Rātās tools into successful solutions for their needs and package them through our creation portal.
+While the MVP targets possum control, the platform is designed to scale. Any field-based operation—whether it's environmental restoration, biodiversity monitoring, or rural land management—can benefit from Rātā’s architecture.
 
-**Your Edits:**
+Early roadmap items include:
 
-- [ ]  …In 1 year: Field trials are complete. Rātā is being used on live projects with positive feedback.
-- In 3 years: Rātā becomes the **go-to platform for pest ops** in NZ, used by contractors, councils, DOC, and researchers. Ai and productivity tools are being tested in the field, research is being conducted into field operation productivity and field operator compensation models.
-- The long-term vision is a **marketplace platform**: where tools, AI systems, sensors, and datasets plug into Rātā to streamline pest control globally. As well as pest control, Rātā aims to hold solutions for other industries that find the model compatible for their needs, opening up a market for research and exploration or any other industry that can tailor Rātās tools into successful solutions for their needs and package them through our creation portal.
-- Pest control is a trail for what Rātā is capable of. If companies can use Rātā to create efficient solutions and sell them, Rātā will will have another avenue for revenue generation besides subscription models, strengthening its long term profitability.
+- **Rātā Lite** – for small operators
+- **Rātā Pro / Rātā Pest** – for large contracts and industry partnerships
+
+These will offer:
+
+- Automated progress tracking and completion estimates
+- Real-time cost monitoring with forward budget projections
+- Integrated risk assessment and mitigation tools
+- Environmental impact reporting with built-in policy generation
+- Tailored tailgates to boost hazard awareness
+- Smart trap and vehicle tracking integration
+- Task-based performance analytics
+- Custom incentive structures aligned to project efficiency
+
+These features reduce operational costs, improve transparency, and increase the marketability of Rātā-powered pest control contracts—feeding demand for crews who operate within the system.
+
+---
+
+## 🧪 Proving Ground: OSPRI-Aligned Contracts
+
+To achieve this, Rātā’s go-to-market strategy is anchored in OSPRI-aligned work—where strict compliance requirements provide the ideal proving ground to build and refine core features. These contracts already demand high standards: vehicle tracking, certification checks, safety briefings, task verification, and strict auditability. But today, those requirements are managed across multiple disconnected systems, creating unnecessary overhead for both contractors and clients.
+
+Rātā offers a unified alternative. By combining mobile field data capture with real-time mapping, smart asset tracking, automated progress updates, tailored hazard briefings, and performance-based reporting, Rātā simplifies project oversight while unlocking immediate time and cost savings. Every feature developed in this high-compliance environment directly contributes to a modular system architecture that can scale into other industries—laying the groundwork for a generalised platform that turns complex operational requirements into streamlined, automated workflows.
+
+---
+
+## 🤖 Long-Term: Automation & AI
+
+Long term, Rātā becomes a commercial automation engine. Its architecture is built to generate high-quality, structured training data through real-world use. That means as AI capabilities develop, Rātā is already collecting the inputs needed to automate work verification, flag inconsistencies, and eventually predict and optimise field planning.
+
+---
+
+## 🌿 Conservation Strategy
+
+This supports Rātā’s long-term strategic vision for conservation project funding, where the goal is to transition from public to private capital—giving businesses a way to fund environmental work and see the results through clear, professional interfaces. From live trap maps to outcome dashboards, Rātā is designed to make conservation scalable, fundable, and commercially transparent. Every layer of the product—from field UX to topographic mapping to AI data structure—has been engineered to support this long-term vision and provide visual marketability for companies to align their brand with real-world conservation projects.
+
+---
+
+## 💼 Commercial Model
+
+> This dual structure—connecting funders to projects while extracting value from the data—puts Rātā in a commercially rare position: it earns from the work being done today, while building the automation products of tomorrow. The result is two distinct revenue streams, each reinforcing the other. One funds and delivers real-world conservation outcomes; the other transforms those outcomes into scalable, intelligent systems. For investors, this isn’t just a software play or a conservation initiative—it’s both, tied together by a feedback loop of field deployment, data, and automation.
+> 
+
+### ✍️ Current Draft:
+
+**Rātā is a data capture and operations platform built specifically for New Zealand’s pest control industry—not because that’s where it stops, but because that’s the ideal place to prove what it’s capable of.**
+
+The platform combines a mobile app for fast, photo-based data capture with a live mapping and task dashboard used by contractors, managers, and clients. Operators use a lightweight, offline-first app to record trap deployments, toxin placement, and the location of field operators, vehicles, and equipment in real time. Each photo entry is tagged with preset data fields and geotagged with a timestamp, then automatically synced to a central map view. This gives everyone involved—from the field team to the office to landowners and client stakeholders—a shared, up-to-date picture of operational progress.
+
+Unlike generic task apps or government portals, Rātā is purpose-built around real, flexible workflows used by pest control operators in Aotearoa. It integrates image collection into everyday task entries, ensuring clean, verifiable data while minimising duplication or extra effort in the field. Every design decision has been made with the field operator and data collection in mind—streamlining task entry through intuitive UI, low-barrier tags, and built-in offline capability.
+
+Requiring images as part of core workflows has an additional effect: passive enforcement of quality standards. It’s difficult to submit bad data when there’s a photo attached. This tackles a long-standing issue in the industry, where maintaining consistency across contractors and crews currently requires expensive and time-consuming manual verification by both contractor leads and client-side supervisors. Rātā solves this quietly in the background by making verification part of the workflow itself. In time, those images will be used to train AI solutions for other industry manual tasks, like cost tracking and inventory automation.
+
+While the MVP targets possum control, the platform is designed to scale. Any field-based operation—whether it's environmental restoration, biodiversity monitoring, or rural land management—can benefit from Rātā’s architecture. Early roadmap items include **Rātā Lite** for small operators and **Rātā Pro** and **Rātā Pest** for larger-scale contracts and custom industry partnerships, offering features such as automated progress tracking and completion estimates, real-time cost monitoring with forward budget projections, integrated risk assessment and mitigation tools, and environmental impact reporting with built-in policy generation. Rātā will also support tailored tailgates to boost field operator engagement around hazard awareness, as well as smart trap and vehicle tracking integration. Over time, long-term task-based performance analytics will feed into custom incentive structures—aligning operator output with project cost efficiency to drive better results across contracts. These features are designed to reduce operational costs, improve project transparency, and increase the marketability of Rātā-powered pest control contracts—feeding demand for crews who operate within the Rātā system.
+
+To achieve this, Rātā’s go-to-market strategy is anchored in OSPRI-aligned work—where strict compliance requirements provide the ideal proving ground to build and refine core features. These contracts already demand high standards: vehicle tracking, certification checks, safety briefings, task verification, and strict auditability. But today, those requirements are managed across multiple disconnected systems, creating unnecessary overhead for both contractors and clients.
+
+Rātā offers a unified alternative. By combining mobile field data capture with real-time mapping, smart asset tracking, automated progress updates, tailored hazard briefings, and performance-based reporting, Rātā simplifies project oversight while unlocking immediate time and cost savings. Every feature developed in this high-compliance environment directly contributes to a modular system architecture that can scale into other industries—laying the groundwork for a generalised platform that turns complex operational requirements into streamlined, automated workflows.
+
+Long term, Rātā becomes a commercial automation engine. Its architecture is built to generate high-quality, structured training data through real-world use. That means as AI capabilities develop, Rātā is already collecting the inputs needed to automate work verification, flag inconsistencies, and eventually predict and optimise field planning.
+
+This supports Rātā’s long-term strategic vision for conservation project funding, where the goal is to transition from public to private capital—giving businesses a way to fund environmental work and see the results through clear, professional interfaces. From live trap maps to outcome dashboards, Rātā is designed to make conservation scalable, fundable, and commercially transparent. Every layer of the product—from field UX to topographic mapping to AI data structure—has been engineered to support this long-term vision and provide visual marketability for companies to align their brand with real-world conservation projects.
+
+> This dual structure—connecting funders to projects while extracting value from the data—puts Rātā in a commercially rare position: it earns from the work being done today, while building the automation products of tomorrow. The result is two distinct revenue streams, each reinforcing the other. One funds and delivers real-world conservation outcomes; the other transforms those outcomes into scalable, intelligent systems. For investors, this isn’t just a software play or a conservation initiative—it’s both, tied together by a feedback loop of field deployment, data, and automation.
+>

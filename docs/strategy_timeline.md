@@ -1,239 +1,208 @@
-# Strategy & Timeline
+# MVP Specification
 
-## `🔖 Assignment Note – Strategy & Timeline
+## 🔖 Assignment Note – MVP Specification
 
 **🧭 Purpose:**
 
-Lay out your plan for building, validating, and growing Rātā over time.
+Define what the Minimum Viable Product (MVP) includes at launch, and what it does *not* include.
 
 ---
 
 ### 💡 Focus Points:
 
-- What are the main **phases** of development?
-- What happens in each phase?
-- When do you hit your “mentor review” checkpoint?
-- What’s the plan for funding and growth?
-- What’s the plan to go from tool → platform?
+- What are the **essential features** for MVP?
+- What’s the user journey like (especially field operators)?
+- What gets deferred to future phases?
+- What devices is it for (phone, tablet, web)?
+- How does this MVP prove the concept?
 
 ---
 
 ### ✅ Writing Checklist:
 
-- [ ]  Phase plan is realistic and milestone-based
-- [ ]  Checkpoint clearly defined
-- [ ]  Shows you’re serious, not just winging it
-- [ ]  Includes future goals (marketplace, integrations, scaling)
-- [ ]  Ready to sync with GitHub → `strategy.md`
+- [x]  Feature list is lean but complete enough to test the concept
+- [x]  Highlights what’s out-of-scope until Phase 2
+- [x]  Makes it easy for a dev team to understand
+- [x]  Syncs with long-term strategy
+- [x]  Ready to sync with GitHub → `mvp_spec.md`
 
 ---
 
-### ✍️ Current Draft:
+### ✍️ Final Draft:
 
-## Strategy & Timeline for Rātā Platform
+## 🔖 **Rātā MVP Specification**
 
-### 🎯 **Purpose:**
+**🧭 Purpose:**
 
-Outline a structured, milestone-based roadmap for developing, validating, and scaling Rātā from an MVP to a widely adopted pest management platform.
-
----
-
-### 🚦 **Main Phases of Development**
-
-### **Phase 1: Research & Specification (Months 1–2)**
-
-- Finalise MVP requirements based on frontline feedback.
-- Engage GIS and software development experts.
-- Define software architecture clearly for mobile app, mapping, and backend.
-- **Mentor Checkpoint:** End of Month 2, consult with trusted industry mentors or advisors for strategic feedback and validation of the initial approach.
-
-### **Phase 2: Prototype Build (Months 3–4)**
-
-- Develop a minimal working mobile application and static dashboard.
-- Incorporate GPS-based photo capture and offline capability.
-- Conduct internal testing with actual field data.
-
-### **Phase 3: Field Trials (Months 5–6)**
-
-- Deploy the prototype in a live pest control operation.
-- Capture detailed user feedback on usability, responsiveness, and gaps.
-
-### **Phase 4: Iteration & Feature Expansion (Months 7–8)**
-
-- Refine MVP based on trial feedback.
-- Introduce real-time team tracking and integrated map layers.
-- Begin basic imagery analysis for pest hotspots.
-
-### **Phase 5: Pre-Launch Testing & Optimisation (Months 9–10)**
-
-- Conduct comprehensive testing across varied hardware and connectivity conditions.
-- Optimise platform speed, battery efficiency, and offline functionality.
-
-### **Phase 6: MVP Release & Early Adoption (Month 10 onwards)**
-
-- Official launch of fully functional MVP to select early adopters.
-- Structured onboarding, continuous feedback, and iterative improvements.
+Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to later phases.
 
 ---
 
-### 📈 **Funding & Growth Strategy**
+### ✅ **In Scope – MVP Features**
 
-### Initial MVP Development Funding
+### 📱 Mobile Field App (Offline-First)
 
-- Target initial funding of **$150,000–$250,000 NZD** to cover development, testing hardware, GIS/UI expertise, and pilot implementation.
+- Photo-based data capture (traps, signs, bait stations)
+- GPS geotagging and timestamping
+- Quick-entry tags: trap type, bait used, result/status
+- Offline-first design; data syncs once back in coverage
+- UI inspired by Snapchat: swipe-based, minimal training overhead
 
-### Follow-up Funding & Scale-up
+### 🗺️ Shared Topographic Map
 
-- Leverage successful pilot data to pursue additional public/private co-funding.
-- Structured funding stages tied to clear metrics and proven success in initial deployments.
+- Displays trap locations and operator movement in real time
+- Smooth map interaction modelled on Google Earth
+- High-res terrain tiles preloaded for offline navigation
+- Shared map visibility to support situational awareness in the field
 
-### Strategic Partnerships
+### 💻 Game-Engine Command Dashboard
 
-- Engage partnerships with existing pest control agencies (DOC, regional councils, private contractors, OSPRI).
-- Foster collaboration with tech providers to accelerate advanced features (AI, computer vision integration).
-- Foster collaboration with smart tech and trap innovators to provide automated data display for
-- Rātā dashboard.
+- Visualises operator activity and trap data in 2D/3D map views
+- Real-time hotspot flagging using basic logic (non-AI)
+- Designed for operations leads and team coordination
+- Lightweight engine allows performance on standard laptops
 
----
+### 🧾 Client Reporting Panel
 
-### 🔄 **Transitioning from Tool → Platform**
-
-### Step 1: Validation & Adoption
-
-- Confirm MVP viability through tangible field results and stakeholder endorsement.
-
-### Step 2: Incremental Feature Integration
-
-- Gradually incorporate AI-driven features (pest identification, predictive analytics, automatic work verification).
-- Introduce third-party device integrations (smart traps, sensors, cameras).
-
-### Step 3: Marketplace & Ecosystem
-
-- Establish Rātā as an open ecosystem with secure APIs for external integrations.
-- Develop a marketplace for third-party vendors to offer compatible devices, tools, and analytical models.
-
-### Step 4: Scalability & Global Expansion
-
-- Ensure platform architecture is modular and scalable.
-- Prepare Rātā for international markets by adapting to global pest management needs and standards.
+- Secure login access for clients and managers
+- Summary dashboard: job progress, trap coverage, daily photos
+- Downloadable exports (CSV, GPX) for reporting and compliance
+- Map-based interface with restricted views to preserve privacy
 
 ---
 
-### 🚩 **Future Goals & Vision**
+### 🛑 Out of Scope (Deferred to Phase 2+)
 
-- Become the standard operational platform for all types of pest management operations in New Zealand.
-- Expand internationally by positioning Rātā as a global leader in data-driven pest control solutions.
-- Introduce a consumer version of Rātā designed for all remote data collection tasks.
-- Continuously innovate by leveraging cutting-edge technology and partnerships, maintaining market relevance and scalability.
+To maintain build velocity and validate core functionality, the following are excluded from the MVP:
 
-This structured approach ensures that Rātā is robustly developed, strategically validated, and primed for sustainable growth and broad market adoption.
-
-### ✍️ Old Draft:
-
-### 🚦 **Main Phases of Development**
-
-### **Phase 1: Research & Specification (Months 1–2)**
-
-- Finalise MVP requirements based on frontline feedback.
-- Engage GIS and software development experts.
-- Define software architecture clearly for mobile app, mapping, and backend.
-- **Mentor Checkpoint:** End of Month 2, consult with trusted industry mentors or advisors for strategic feedback and validation of the initial approach.
-
-### **Phase 2: Prototype Build (Months 3–4)**
-
-- Develop a minimal working mobile application and static dashboard.
-- Incorporate GPS-based photo capture and offline capability.
-- Conduct internal testing with actual field data.
-
-### **Phase 3: Field Trials (Months 5–6)**
-
-- Deploy the prototype in a live pest control operation.
-- Capture detailed user feedback on usability, responsiveness, and gaps.
-
-### **Phase 4: Iteration & Feature Expansion (Months 7–8)**
-
-- Refine MVP based on trial feedback.
-- Introduce real-time team tracking and integrated map layers.
-- Begin basic imagery analysis for pest hotspots.
-
-### **Phase 5: Pre-Launch Testing & Optimisation (Months 9–10)**
-
-- Conduct comprehensive testing across varied hardware and connectivity conditions.
-- Optimise platform speed, battery efficiency, and offline functionality.
-
-### **Phase 6: MVP Release & Early Adoption (Month 10 onwards)**
-
-- Official launch of fully functional MVP to select early adopters.
-- Structured onboarding, continuous feedback, and iterative improvements.
+- AI-powered pest identification or hotspot prediction
+- Barcode scanning (e.g. OSPRI integration)
+- Smart trap / remote device syncing
+- Drone / thermal image data integration
+- Internal messaging or team chat
+- Researcher, landowner, or marketplace logins
+- Multi-species filters or custom tagging taxonomies
+- AI-powered safety briefings or feedback systems
+- Automated text-in / text-out coordination
 
 ---
 
-### 📈 **Funding & Growth Strategy**
+### 🧠 Future-Proofing: AI-Ready by Design
 
-### Initial MVP Development Funding
+The MVP is engineered with future AI integration in mind. Core infrastructure supports later adoption of:
 
-- Target initial funding of **$150,000–$250,000 NZD** to cover development, testing hardware, GIS/UI expertise, and pilot implementation.
+- **Large Language Models**: for auto-report generation, QA summaries, and team feedback
+- **Computer Vision Models**: for trap verification, pest ID, image scoring, and automated hotspot detection
 
-### Follow-up Funding & Scale-up
-
-- Leverage successful pilot data to pursue additional public/private co-funding.
-- Structured funding stages tied to clear metrics and proven success in initial deployments.
-
-### Strategic Partnerships
-
-- Engage partnerships with existing pest control agencies (DOC, regional councils, private contractors, OSPRI).
-- Foster collaboration with tech providers to accelerate advanced features (AI, computer vision integration).
-- Foster collaboration with smart tech and trap innovators to provide automated data display for the Rātā dashboard.
+This ensures that Rātā evolves with the tools that will define the future of field operations.
 
 ---
 
-### 🔄 **Transitioning from Tool → Platform**
+### 👟 Field Operator User Journey
 
-### Step 1: Validation & Adoption
-
-- Confirm MVP viability through tangible field results and stakeholder endorsement.
-
-### Step 2: Incremental Feature Integration
-
-- Gradually incorporate AI-driven features (dynamic task allocation, training and onboarding, intelligent data query system).
-- Introduce third-party device integrations (smart traps, sensors, cameras).
-
-### Step 3: Marketplace & Ecosystem
-
-- Establish Rātā as an open ecosystem with secure APIs for external integrations.
-- Develop a marketplace for third-party vendors to offer compatible devices, tools, and analytical models.
-
-### Step 4: Scalability & Global Expansion
-
-- Ensure platform architecture is modular and scalable.
-- Prepare Rātā for international markets by adapting to global pest management needs and standards.
+1. Open app → Map opens, centered on current location
+2. Swipe into camera mode → Capture image of trap
+3. Tag → Enter trap type, bait used, result
+4. Save → Stored offline until coverage is restored
+5. Sync → Data uploads and updates the central map automatically
+6. Command sees → Real-time updates of trap work, locations, and hazards
 
 ---
 
-### 💡 **AI & Large Language Model (LLM) Integrations**
+### 📱 Target Devices
 
-### **Initial LLM Implementations:**
-
-- **AI-Powered Tailgate Safety Briefings:** Automate morning safety briefings, reducing admin time and enhancing communication efficiency.
-- **Document Reading & Summarisation:** Integrate automated document parsing and summarisation features to streamline information management.
-
-### **Future LLM Applications:**
-
-- **Natural Language Reporting:** Automate detailed reporting from raw field data.
-- **Field Support Chatbot:** Real-time operational assistance and troubleshooting.
-- **Predictive Risk Assessment:** Identify potential safety or operational risks proactively.
-- **Dynamic Task Allocation:** Optimise task distribution based on real-time analytics.
-- **Intelligent Data Query System:** Simplify data retrieval through conversational queries.
-- **Training & Onboarding:** Provide interactive, tailored training and onboarding solutions for field operators.
+- **Mobile App**: Android (priority), iOS (secondary)
+- **Dashboard**: Tablet or Laptop (Windows/Mac)
+- **Map Layers**: Designed to run on standard GPU-equipped field laptops
 
 ---
 
-### 🚩 **Future Goals & Vision**
+### 🎯 Proof of Concept – What MVP Validates
 
-- Become the standard operational platform for all types of pest management operations in New Zealand.
-- Expand internationally by positioning Rātā as a global leader in data-driven pest control solutions.
-- Continuously innovate by leveraging cutting-edge technology and partnerships, maintaining market relevance and scalability.
-- Introduce a consumer version of Rātā designed for remote data collection tasks outside of pest control workflows, such as field research and exploration.
-- Create a marketplace for workplace solutions created on the Rātā framework.
+- That offline-first logging works reliably in remote NZ conditions
+- That field visibility via live maps reduces communication delays
+- That photo-based logging is faster, more accurate than manual methods
+- That operators find the system faster to learn than legacy tools
+- That centralised data improves planning and performance monitoring
+- That clients gain immediate operational transparency
 
-This structured approach ensures that Rātā is robustly developed, strategically validated, and primed for sustainable growth and broad market adoption.
+### ✍️ First Draft:
+
+## 🔖 **Rātā MVP Specification**
+
+**Purpose:**
+
+Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to later phases.
+
+---
+
+### ✅ **In Scope – MVP Features**
+
+### 📱 **Mobile Field App (Offline-First)**
+
+- Photo-based data capture (traps, signs, bait stations)
+- GPS geotagging + timestamping of each photo
+- Quick entry tags: trap type, bait used, status
+- Works fully offline; syncs data when back in range
+- UI modelled on Snapchat for speed and familiarity
+
+### 🗺️ **Shared Topographic Map**
+
+- Displays trap icons + operator locations
+- Smooth interaction modeled after Google Earth
+- High-res base layers, optimized for rural terrain
+- Works offline using preloaded zones
+
+### 💻 **Game-Engine Command Dashboard**
+
+- Visualises operator movements + trap data
+- Map view (2D or lightweight 3D)
+- Highlights potential pest “hotspots” based on basic logic
+- Supports real-time field coordination
+
+### 🧾 **Client Reporting Panel**
+
+- Secure login access
+- Downloadable summaries (CSV, GPX)
+- High-level job stats: trap effectiveness, daily progress, coverage
+
+---
+
+### 🛑 **Out of Scope (Until Phase 2+)**
+
+- AI-driven pest ID or hotspot prediction
+- Barcode scanning / OSPRI integration
+- Smart trap or remote sensor syncing
+- Drone or thermal camera feed integration
+- Chat/messaging system
+- Researcher / landowner / marketplace logins
+- Multi-species filters or detailed tagging
+- AI-driven assistance tools
+
+---
+
+### 👟 **User Journey (Field Operator)**
+
+1. Open app → Start “New Check”
+2. Take photo of trap → Tag it (bait, type, result)
+3. Save → Data is stored locally (offline)
+4. Reconnect to signal → Data auto-syncs to central dashboard
+5. Base team sees live map updates + photos
+
+---
+
+### 📱 **Target Devices**
+
+- Mobile App: Android (priority), iOS (optional)
+- Dashboard: Tablets, Laptops (Windows/Mac)
+
+---
+
+### 🎯 **How This Proves the Concept**
+
+- Confirms that live mapping and field visibility save time
+- Proves offline-first logging works in remote NZ terrain
+- Tests operator ease-of-use vs existing methods
+- Delivers immediate value for teams managing contracts
+
+---

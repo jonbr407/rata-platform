@@ -20,104 +20,111 @@ Define what the Minimum Viable Product (MVP) includes at launch, and what it doe
 
 ### ✅ Writing Checklist:
 
-- [ ]  Feature list is lean but complete enough to test the concept
-- [ ]  Highlights what’s out-of-scope until Phase 2
-- [ ]  Makes it easy for a dev team to understand
-- [ ]  Syncs with long-term strategy
-- [ ]  Ready to sync with GitHub → `mvp_spec.md`
+- [x]  Feature list is lean but complete enough to test the concept
+- [x]  Highlights what’s out-of-scope until Phase 2
+- [x]  Makes it easy for a dev team to understand
+- [x]  Syncs with long-term strategy
+- [x]  Ready to sync with GitHub → `mvp_spec.md`
 
 ---
 
-### ✍️ Current Draft:
+### ✍️ Final Draft:
 
-## **Rātā MVP Specification**
+## 🔖 **Rātā MVP Specification**
 
-**Purpose:**
+**🧭 Purpose:**
 
-Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to in later phases.
+Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to later phases.
 
 ---
 
 ### ✅ **In Scope – MVP Features**
 
-### 📱 **Mobile Field App (Offline-First)**
+### 📱 Mobile Field App (Offline-First)
 
 - Photo-based data capture (traps, signs, bait stations)
-- GPS geotagging + timestamping of each photo
-- Quick entry tags: trap type, bait used, status
-- Works fully offline; syncs data when back in range
-- UI modelled on Snapchat for speed and familiarity
+- GPS geotagging and timestamping
+- Quick-entry tags: trap type, bait used, result/status
+- Offline-first design; data syncs once back in coverage
+- UI inspired by Snapchat: swipe-based, minimal training overhead
 
-### 🗺️ **Shared Topographic Map**
+### 🗺️ Shared Topographic Map
 
-- Displays trap icons + operator locations
-- Smooth interaction modeled after Google Earth
-- High-res base layers, optimized for rural terrain
-- Works offline using preloaded zones
+- Displays trap locations and operator movement in real time
+- Smooth map interaction modelled on Google Earth
+- High-res terrain tiles preloaded for offline navigation
+- Shared map visibility to support situational awareness in the field
 
-### 💻 **Game-Engine Command Dashboard**
+### 💻 Game-Engine Command Dashboard
 
-- Visualises operator movements + trap data
-- Map view (2D or lightweight 3D)
-- Highlights potential pest “hotspots” based on basic logic
-- Supports real-time field coordination
+- Visualises operator activity and trap data in 2D/3D map views
+- Real-time hotspot flagging using basic logic (non-AI)
+- Designed for operations leads and team coordination
+- Lightweight engine allows performance on standard laptops
 
-### 🧾 **Client Reporting Panel**
+### 🧾 Client Reporting Panel
 
-- Secure login access
-- Downloadable summaries (CSV, GPX)
-- A view of the map with restricted access but views of trap and toxin placement
-
----
-
-### 🛑 **Out of Scope (Until Phase 2+) (Adding 3+ too)**
-
-These features are deferred to maintain MVP simplicity, control initial complexity, and ensure the platform is robust before adding advanced integrations:
-
-- AI-driven pest ID or hotspot prediction
-- Barcode scanning / OSPRI integration
-- Smart trap or remote sensor syncing
-- Drone or thermal camera feed integration
-- Chat/messaging system
-- Researcher / landowner / marketplace logins
-- Multi-species filters or detailed tagging
-- Ai powered tailgates and feedback system
-- Automated text on text off
+- Secure login access for clients and managers
+- Summary dashboard: job progress, trap coverage, daily photos
+- Downloadable exports (CSV, GPX) for reporting and compliance
+- Map-based interface with restricted views to preserve privacy
 
 ---
 
-### 🚧 **Future-Proofing (AI-Ready Design)**
+### 🛑 Out of Scope (Deferred to Phase 2+)
 
-The MVP architecture is explicitly designed to support future integration of artificial intelligence tools. In later phases, we plan to incorporate large language models (LLMs) for advanced data summarisation, reporting automation, . Additionally, computer vision models for automated pest identification, work verification, and hotspot prediction will become central to the platform’s long-term capability. This foundational design ensures smooth integration and scalability as Rātā evolves.
+To maintain build velocity and validate core functionality, the following are excluded from the MVP:
 
----
-
-### 👟 **User Journey (Field Operator)**
-
-1. Open app → Map view, centered on operator
-2. Swipe screen → Camera app appears seamlessly, no delay
-3. Take photo of trap → Tag it (trap type, status, result)
-4. Save → Data is stored locally (offline)
-5. Reconnect to signal → Data auto-syncs to central dashboard
-6. Base and team sees live map updates of trap checks, locations, hazards added
-
----
-
-### 📱 **Target Devices**
-
-- Mobile App: Android (priority), iOS (later)
-- Dashboard: Tablets, Laptops (Windows/Mac)
+- AI-powered pest identification or hotspot prediction
+- Barcode scanning (e.g. OSPRI integration)
+- Smart trap / remote device syncing
+- Drone / thermal image data integration
+- Internal messaging or team chat
+- Researcher, landowner, or marketplace logins
+- Multi-species filters or custom tagging taxonomies
+- AI-powered safety briefings or feedback systems
+- Automated text-in / text-out coordination
 
 ---
 
-### 🎯 **How This Proves the Concept**
+### 🧠 Future-Proofing: AI-Ready by Design
 
-- Confirms that live mapping and field visibility save time
-- Validates reduction in coordination delays
-- Demonstrates clear improvement in data accuracy over manual logging methods
-- Proves offline-first logging works in remote NZ terrain
-- Tests operator ease-of-use vs existing methods
-- Delivers immediate value for teams managing contracts
+The MVP is engineered with future AI integration in mind. Core infrastructure supports later adoption of:
+
+- **Large Language Models**: for auto-report generation, QA summaries, and team feedback
+- **Computer Vision Models**: for trap verification, pest ID, image scoring, and automated hotspot detection
+
+This ensures that Rātā evolves with the tools that will define the future of field operations.
+
+---
+
+### 👟 Field Operator User Journey
+
+1. Open app → Map opens, centered on current location
+2. Swipe into camera mode → Capture image of trap
+3. Tag → Enter trap type, bait used, result
+4. Save → Stored offline until coverage is restored
+5. Sync → Data uploads and updates the central map automatically
+6. Command sees → Real-time updates of trap work, locations, and hazards
+
+---
+
+### 📱 Target Devices
+
+- **Mobile App**: Android (priority), iOS (secondary)
+- **Dashboard**: Tablet or Laptop (Windows/Mac)
+- **Map Layers**: Designed to run on standard GPU-equipped field laptops
+
+---
+
+### 🎯 Proof of Concept – What MVP Validates
+
+- That offline-first logging works reliably in remote NZ conditions
+- That field visibility via live maps reduces communication delays
+- That photo-based logging is faster, more accurate than manual methods
+- That operators find the system faster to learn than legacy tools
+- That centralised data improves planning and performance monitoring
+- That clients gain immediate operational transparency
 
 ### ✍️ First Draft:
 
@@ -197,3 +204,5 @@ Define what the Minimum Viable Product (MVP) includes at launch, and what is def
 - Proves offline-first logging works in remote NZ terrain
 - Tests operator ease-of-use vs existing methods
 - Delivers immediate value for teams managing contracts
+
+---

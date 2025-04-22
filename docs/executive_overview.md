@@ -1,5 +1,3 @@
-# Executive Overview
-
 ## 🔖 Assignment Note – Executive Overview
 
 **🧭 Purpose:**

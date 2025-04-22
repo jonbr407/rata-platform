@@ -1,5 +1,3 @@
-# MVP Specification
-
 ## 🔖 Assignment Note – MVP Specification
 
 **🧭 Purpose:**

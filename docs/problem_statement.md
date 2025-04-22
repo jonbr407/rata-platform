@@ -1,5 +1,3 @@
-# Problem Statement
-
 ## 🔖 Assignment Note – Problem Statement
 
 **🧭 Purpose:**
@@ -150,3 +148,5 @@ What hasn’t emerged is the system to bring it all together.
 Rātā exists to fill that gap. It futureproofs pest control operations by aligning daily fieldwork with structured, verifiable data capture—laying the foundation for automation, quality assurance, and scalable project delivery.
 
 The tools are ready. The work is happening. Rātā is the platform to bring it all into one place—and finally make it work together.
+
+---

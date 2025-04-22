@@ -1,208 +1,377 @@
-# MVP Specification
-
-## 🔖 Assignment Note – MVP Specification
+## `🔖 Assignment Note – Strategy & Timeline
 
 **🧭 Purpose:**
 
-Define what the Minimum Viable Product (MVP) includes at launch, and what it does *not* include.
+Lay out your plan for building, validating, and growing Rātā over time.
 
 ---
 
 ### 💡 Focus Points:
 
-- What are the **essential features** for MVP?
-- What’s the user journey like (especially field operators)?
-- What gets deferred to future phases?
-- What devices is it for (phone, tablet, web)?
-- How does this MVP prove the concept?
+- What are the main **phases** of development?
+- What happens in each phase?
+- When do you hit your “mentor review” checkpoint?
+- What’s the plan for funding and growth?
+- What’s the plan to go from tool → platform?
 
 ---
 
 ### ✅ Writing Checklist:
 
-- [x]  Feature list is lean but complete enough to test the concept
-- [x]  Highlights what’s out-of-scope until Phase 2
-- [x]  Makes it easy for a dev team to understand
-- [x]  Syncs with long-term strategy
-- [x]  Ready to sync with GitHub → `mvp_spec.md`
+- [ ]  Phase plan is realistic and milestone-based
+- [ ]  Checkpoint clearly defined
+- [ ]  Shows you’re serious, not just winging it
+- [ ]  Includes future goals (marketplace, integrations, scaling)
+- [ ]  Ready to sync with GitHub → `strategy.md`
 
 ---
 
-### ✍️ Final Draft:
+### ✍️ Current Draft:
 
-## 🔖 **Rātā MVP Specification**
+## ✅ Strategy & Timeline – Rātā
 
-**🧭 Purpose:**
+## 🧱 **Phase 0 – Foundation & Internal Alignment**
 
-Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to later phases.
-
----
-
-### ✅ **In Scope – MVP Features**
-
-### 📱 Mobile Field App (Offline-First)
-
-- Photo-based data capture (traps, signs, bait stations)
-- GPS geotagging and timestamping
-- Quick-entry tags: trap type, bait used, result/status
-- Offline-first design; data syncs once back in coverage
-- UI inspired by Snapchat: swipe-based, minimal training overhead
-
-### 🗺️ Shared Topographic Map
-
-- Displays trap locations and operator movement in real time
-- Smooth map interaction modelled on Google Earth
-- High-res terrain tiles preloaded for offline navigation
-- Shared map visibility to support situational awareness in the field
-
-### 💻 Game-Engine Command Dashboard
-
-- Visualises operator activity and trap data in 2D/3D map views
-- Real-time hotspot flagging using basic logic (non-AI)
-- Designed for operations leads and team coordination
-- Lightweight engine allows performance on standard laptops
-
-### 🧾 Client Reporting Panel
-
-- Secure login access for clients and managers
-- Summary dashboard: job progress, trap coverage, daily photos
-- Downloadable exports (CSV, GPX) for reporting and compliance
-- Map-based interface with restricted views to preserve privacy
+> “Draft everything. Align internally then gain external perspective. Finalise the vision.”
+> 
 
 ---
 
-### 🛑 Out of Scope (Deferred to Phase 2+)
+### ✅ **Objectives**
 
-To maintain build velocity and validate core functionality, the following are excluded from the MVP:
-
-- AI-powered pest identification or hotspot prediction
-- Barcode scanning (e.g. OSPRI integration)
-- Smart trap / remote device syncing
-- Drone / thermal image data integration
-- Internal messaging or team chat
-- Researcher, landowner, or marketplace logins
-- Multi-species filters or custom tagging taxonomies
-- AI-powered safety briefings or feedback systems
-- Automated text-in / text-out coordination
+- Draft all 8 key documents
+- Create a stream to begin the conversation
+- Prepare for limited external feedback
+- Final draft all 8 key documents
+- Create a second stream for vision clarity
+- Prepare for final vision feedback from limited mentorship group
+- Decide whether to proceed to phase 1
 
 ---
 
-### 🧠 Future-Proofing: AI-Ready by Design
+### 📄 **Core Deliverables**
 
-The MVP is engineered with future AI integration in mind. Core infrastructure supports later adoption of:
-
-- **Large Language Models**: for auto-report generation, QA summaries, and team feedback
-- **Computer Vision Models**: for trap verification, pest ID, image scoring, and automated hotspot detection
-
-This ensures that Rātā evolves with the tools that will define the future of field operations.
-
----
-
-### 👟 Field Operator User Journey
-
-1. Open app → Map opens, centered on current location
-2. Swipe into camera mode → Capture image of trap
-3. Tag → Enter trap type, bait used, result
-4. Save → Stored offline until coverage is restored
-5. Sync → Data uploads and updates the central map automatically
-6. Command sees → Real-time updates of trap work, locations, and hazards
+- Problem Statement
+- Executive Overview
+- Solution Summary
+- MVP Specification
+- Strategy & Timeline
+- Roadmap
+- README.md
+- Initial Pitch Deck (narrative version)
 
 ---
 
-### 📱 Target Devices
+### 🎥 Loom #1 – *“Development So Far”*
 
-- **Mobile App**: Android (priority), iOS (secondary)
-- **Dashboard**: Tablet or Laptop (Windows/Mac)
-- **Map Layers**: Designed to run on standard GPU-equipped field laptops
+A 5–8 min walkthrough introducing the problem, solution, MVP scope, and roadmap to anchor Mentor Review 1 feedback and a general understanding of where this came from and why I think I'm the one to do it.
 
 ---
 
-### 🎯 Proof of Concept – What MVP Validates
+### 👥 **Mentor Review 1 – Early Eyes**
 
-- That offline-first logging works reliably in remote NZ conditions
-- That field visibility via live maps reduces communication delays
-- That photo-based logging is faster, more accurate than manual methods
-- That operators find the system faster to learn than legacy tools
-- That centralised data improves planning and performance monitoring
-- That clients gain immediate operational transparency
-
-### ✍️ First Draft:
-
-## 🔖 **Rātā MVP Specification**
-
-**Purpose:**
-
-Define what the Minimum Viable Product (MVP) includes at launch, and what is deferred to later phases.
+> Only used if internal roadblocks occur before final drafts
+> 
+- Small group sanity check (e.g. Tomas, Grace, Graces tech contact)
+- Aimed at helping resolve uncertainty, doubt or friction before proceeding
 
 ---
 
-### ✅ **In Scope – MVP Features**
+### 🎥 Loom #2 – *“Changes & Rationale”*
 
-### 📱 **Mobile Field App (Offline-First)**
+A second video outlining what’s changed since Loom #1 and why:
 
-- Photo-based data capture (traps, signs, bait stations)
-- GPS geotagging + timestamping of each photo
-- Quick entry tags: trap type, bait used, status
-- Works fully offline; syncs data when back in range
-- UI modelled on Snapchat for speed and familiarity
-
-### 🗺️ **Shared Topographic Map**
-
-- Displays trap icons + operator locations
-- Smooth interaction modeled after Google Earth
-- High-res base layers, optimized for rural terrain
-- Works offline using preloaded zones
-
-### 💻 **Game-Engine Command Dashboard**
-
-- Visualises operator movements + trap data
-- Map view (2D or lightweight 3D)
-- Highlights potential pest “hotspots” based on basic logic
-- Supports real-time field coordination
-
-### 🧾 **Client Reporting Panel**
-
-- Secure login access
-- Downloadable summaries (CSV, GPX)
-- High-level job stats: trap effectiveness, daily progress, coverage
+- Which suggestions from Review 1 were implemented
+- Which were not, and why
+- How the overall vision has sharpened
 
 ---
 
-### 🛑 **Out of Scope (Until Phase 2+)**
+### 👥 **Mentor Review 2 – Final Alignment Checkpoint**
 
-- AI-driven pest ID or hotspot prediction
-- Barcode scanning / OSPRI integration
-- Smart trap or remote sensor syncing
-- Drone or thermal camera feed integration
-- Chat/messaging system
-- Researcher / landowner / marketplace logins
-- Multi-species filters or detailed tagging
-- AI-driven assistance tools
+> Occurs at end of Phase 0, following completion of all document drafts
+> 
 
----
+**Invitees:**
 
-### 👟 **User Journey (Field Operator)**
-
-1. Open app → Start “New Check”
-2. Take photo of trap → Tag it (bait, type, result)
-3. Save → Data is stored locally (offline)
-4. Reconnect to signal → Data auto-syncs to central dashboard
-5. Base team sees live map updates + photos
+- **Grace Esterman** – Startup Dunedin; ecosystem insight and strategic framing
+- **Tomas Daley** – Manager; grounded field perspective and internal clarity
+- **Jonathan Lopardo** – Drone tech CEO; GIS, startup process, and dev oversight
+- **Nathan Berg** – Academic mentor; behavioural economics and research alignment
+- **Sudhir Malik** – India dev lead contact; systems thinker with startup experience
+- **Graham Hickling** – Pest scientist; ecological realism and field-based grounding
+- **Grace’s senior tech contact** – (name TBD); technical advisor candidate
 
 ---
 
-### 📱 **Target Devices**
+### ✅ **Mentor Review 2 Goals**
 
-- Mobile App: Android (priority), iOS (optional)
-- Dashboard: Tablets, Laptops (Windows/Mac)
+- Validate all 8 documents in final draft form
+- Help identify potential technical mentors for Phase 1
+- Give the greenlight to proceed or pause development to Phase 1
+
+---
+
+### 🎯 **Phase 0 Exit Criteria**
+
+- Finalised versions of all documents up to this point
+- Loom #1 & #2 completed and distributed
+- Mentor feedback 1 & 2 incorporated
+- Decision made: proceed to Phase 1 or hold
+- List of potential tech contacts surfaced
 
 ---
 
-### 🎯 **How This Proves the Concept**
+## 🚀 **Phase 1 – Polish, Proof, and Prepare for Funding**
 
-- Confirms that live mapping and field visibility save time
-- Proves offline-first logging works in remote NZ terrain
-- Tests operator ease-of-use vs existing methods
-- Delivers immediate value for teams managing contracts
+> “This is where we make Rātā real. Phase 1 transforms the concept into something fundable and buildable.”
+> 
 
 ---
+
+### ✅ **Objectives**
+
+- Create a full investor-ready pitch pack
+- Design system architecture and confirm tech stack
+- Engage technical advisors
+- Test viability: cost, technical feasibility, scalability
+- Prepare to secure funding and build the MVP
+
+---
+
+### 📦 **Document Structure - *“Docs up until this point”***
+
+### 🔹 Finalised Core Docs
+
+1. Problem Statement
+2. Executive Overview
+3. Solution Summary
+4. MVP Specification
+5. Strategy & Timeline
+6. Roadmap
+7. README.md
+8. Final Pitch Deck (visual + narrative ready)
+
+### 🔹 Investor Docs
+
+1. Executive Summary (1-pager)
+2. Budget + Funding Proposal
+3. “Why Now” Explainer
+4. Use Case Briefs
+5. Letters of Support (optional)
+
+### 🔹 Technical Docs
+
+1. Technical Architecture Summary
+2. Developer Brief (hiring plan, tools, responsibilities)
+3. Dev-Facing Product Vision
+
+### 🔹 Strategic Add-ons (Optional)
+
+1. Company One-Pager
+2. Market Comparison
+3. Conservation Impact Brief
+
+---
+
+### 🧭 **Technical Pathway During Phase 1**
+
+- Potential tech advisors surfaced in Mentor Review 2
+- Tech stack finalised based on vision, budget, scalability
+- Developer documentation built in parallel with decision-making
+- Cost estimates become clearer with each technical step
+- Architecture feasibility compared to vision
+
+---
+
+### 👥 **Tech Mentor Review 1 – Mid-Phase Check**
+
+> Occurs during system architecture planning
+> 
+- Helps guide stack selection, dev plan, and implementation strategy
+- Helps catch red flags early
+
+---
+
+### 👥 **Tech Mentor Review 2 – Late-Phase Check**
+
+> Occurs during system architecture planning finalisation
+> 
+- Validates final stack selection, dev plan, and implementation strategy
+- Helps ensure the vision is aligning with the tech
+
+---
+
+### 📦 **Documents**
+
+> This is where everything converges.
+> 
+
+All document categories—core, investor, and technical—are finalised using the most up-to-date strategic and architectural information. The technical documentation now directly informs and reinforces the content in the MVP spec, budget proposals, and pitch deck.
+
+At this stage:
+
+- Tech feasibility supports the business case
+- MVP specification reflects validated scope
+- Budget and timelines are grounded in technical input
+- All claims made to funders are backed by evidence, design, or validated planning
+
+**Everything is now under scrutiny—from both business mentors and technical advisors.**
+
+### 👥 **Mentor Review 3 + Tech Mentor Review 3 – Final Gate**
+
+> Occurs at end of Phase 1
+> 
+> 
+> The **make or break moment** for Rātā’s future
+> 
+- Full review by business mentors + technical advisors
+- All materials must be pitch-ready and technically feasible
+- Outcome: confirm whether Rātā is ready to seek funding and begin MVP development (Phase 2), whether it needs more, or whether it is not feasible
+
+---
+
+### 🎯 **Phase 1 Exit Criteria**
+
+- All documents externally polished
+- Pitch pack complete and reviewed
+- Tech stack and dev plan validated
+- Budget realistic and aligned to MVP goals
+- Mentor and tech sign-off secured
+- Clear go/no-go decision reached for Rātā’s execution
+
+---
+
+### 🚧 **Phase 2 – Conditional Kickoff: MVP Prototype Build** *(Pending Phase 1 Completion)*
+
+> “Start building only once the vision and architecture are truly validated.”
+> 
+
+**🛠️ Value Unlocked (Future):** Demonstrates that Rātā’s core offline system functions reliably in field conditions and begins translating concept into code.
+
+**🧭 Status:**
+
+This phase is currently a placeholder. While core goals are known, the ability to begin Phase 2 depends on:
+
+- Finalised tech architecture and stack from Phase 1
+- Accurate cost estimates and validated timelines
+- Confirmed team composition and hiring strategy
+- External funding or development partnership confirmed
+
+**Key Activities (Once Triggered):**
+
+- Build core mobile app with GPS photo tagging and local sync
+- Build static map dashboard with live visual updates
+- Create backend structure to receive and display field data
+- Run controlled offline tests using real terrain and mock data
+
+---
+
+### 🧪 **Phase 3 – Live Field Trials** *(Dependent on Phase 2 Results)*
+
+> “Take the working prototype and test it where it matters—on the job.”
+> 
+
+**🛠️ Value Unlocked (Future):** Proof that Rātā saves time and improves workflows compared to legacy tools.
+
+**🧭 Status:**
+
+Phase 3 will not be scoped or scheduled until Phase 2 produces a stable MVP prototype. Timing and success criteria will be set based on real-world feasibility.
+
+**Indicative Goals:**
+
+- Deploy MVP in live contract work (via parent company or pilot partners)
+- Observe usability: battery usage, sync performance, tagging friction
+- Interview field users and document breakdowns or high points
+
+---
+
+### 🔁 **Phase 4 – Targeted Iteration & Expansion** *(Scope TBD)*
+
+> “Now that it works—make it scale-ready.”
+> 
+
+**🛠️ Value Unlocked (Future):** Rātā becomes increasingly usable across larger teams and more complex operations.
+
+**🧭 Status:**
+
+This phase remains speculative until feedback from Phase 3 is analyzed.
+
+**Potential Focus Areas:**
+
+- Improve UX flows for tagging and entry
+- Strengthen team-tracking overlays and map visibility
+- Begin structuring backend data for future AI readiness
+- Investigate tagging schemas for multi-species or complex jobs
+
+---
+
+### 🧽 **Phase 5 – Pre-Launch Stability & Readiness** *(Sequence Confirmed, Timing TBD)*
+
+> “Pressure-test before it goes public.”
+> 
+
+**🛠️ Value Unlocked (Future):** Technical polish, operational readiness, and partner confidence.
+
+**Conditioned on:**
+
+- Full performance evaluation from prior phases
+- Tech partner sign-off on backend and UI responsiveness
+- MVP system holding stable across device types and terrains
+
+---
+
+### 🚀 **Phase 6 – Pilot Launch & Feedback Loop**
+
+> “If it survives the wild, it’s real.”
+> 
+
+**🛠️ Value Unlocked (Future):** Real usage, real data, real decisions.
+
+- Release under limited-use pilot agreements
+- Create feedback loops with field crews, managers, and clients
+- Begin onboarding support, training materials, and demo data creation
+- Identify first scalable contract or region
+
+---
+
+## 💰 **Updated Funding & Growth Strategy**
+
+### 🧭 Clarity Post-Phase 1
+
+- All budget projections and fundraising efforts are **deferred until tech architecture and hiring plan are finalised**
+- We do not yet know:
+    - Final developer stack cost
+    - Required team size for Phase 2–3 delivery
+    - Timeline certainty
+
+### 🪙 Early Signal to Funders (Post-Phase 1)
+
+If Phase 1 delivers validated architecture and a complete pitch pack:
+
+- Begin funding conversations with:
+    - Callaghan Innovation
+    - Angel investors
+    - Pest control companies for co-builds
+- Budget range remains **indicative only**: $150K–$250K
+
+---
+
+## 🌐 Strategic Partnerships (Deferred by Design)
+
+The original vision for partnerships is still valid, but formal engagement is on hold until:
+
+- MVP technical scope is confirmed
+- Pilot implementation path is chosen (DOC, OSPRI, private)
+- Sandbox API and data integrity protocols are ready
+
+---
+
+## 🛠️ From Tool → Platform (Long-Term Plan)
+
+This sequence stays in place but is now explicitly phased:
+
+1. **Validate the Tool** – via MVP field testing (Phases 2–3)
+2. **Expand Capabilities** – only after successful pilot and feedback cycles (Phases 4–5)
+3. **Open the Ecosystem** – integrations, APIs, and third-party support (Post-launch)
+4. **Scale and Export** – only when reliability and commercial performance are proven at scale

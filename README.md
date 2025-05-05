@@ -11,7 +11,8 @@ This video gives you:
 - A breakdown of the included documents
 - Guidance on where to focus and how you can help
 
-You can then explore the documents below at your own pace.
+You can then explore the documents above at your own pace.
+Currently mentors only have access to Github, please ignore the key links at the bottom of the page. 
 
 🎥 [Loom Link] – *“Documentation closer look  – Rātā Phase 0”*
 

@@ -1,32 +1,4 @@
-## `🔖 Assignment Note – Strategy & Timeline
-
-**🧭 Purpose:**
-
-Lay out your plan for building, validating, and growing Rātā over time.
-
----
-
-### 💡 Focus Points:
-
-- What are the main **phases** of development?
-- What happens in each phase?
-- When do you hit your “mentor review” checkpoint?
-- What’s the plan for funding and growth?
-- What’s the plan to go from tool → platform?
-
----
-
-### ✅ Writing Checklist:
-
-- [ ]  Phase plan is realistic and milestone-based
-- [ ]  Checkpoint clearly defined
-- [ ]  Shows you’re serious, not just winging it
-- [ ]  Includes future goals (marketplace, integrations, scaling)
-- [ ]  Ready to sync with GitHub → `strategy.md`
-
----
-
-### ✍️ Current Draft:
+### ✍️ Final Draft:
 
 ## ✅ Strategy & Timeline – Rātā
 
@@ -45,7 +17,7 @@ Lay out your plan for building, validating, and growing Rātā over time.
 - Final draft all 8 key documents
 - Create a second stream for vision clarity
 - Prepare for final vision feedback from limited mentorship group
-- Decide whether to proceed to phase 1
+- Decide whether to proceed to Phase 1
 
 ---
 
@@ -62,53 +34,85 @@ Lay out your plan for building, validating, and growing Rātā over time.
 
 ---
 
-### 🎥 Loom #1 – *“Development So Far”*
+### 🎥 Loom #0 – *“Personal Intro & Project Context”*
 
-A 5–8 min walkthrough introducing the problem, solution, MVP scope, and roadmap to anchor Mentor Review 1 feedback and a general understanding of where this came from and why I think I'm the one to do it.
+A short, informal introduction video that sets the scene:
+
+- Who I am, where this idea came from, and why I’m building it
+- The background that makes Rātā possible now
+- A personal framing to anchor what follows in Loom #1
+
+This is not a pitch—just a human introduction for context.
 
 ---
 
-### 👥 **Mentor Review 1 – Early Eyes**
+### 🎥 Loom #1 – *“First Full Draft Pitch”*
 
-> Only used if internal roadblocks occur before final drafts
+A complete, rough-edged walkthrough of the Rātā concept:
+
+- The problem
+- The solution
+- MVP scope and early architecture
+- Go-to-market plan and roadmap
+- Long-term vision
+
+This video presents the full working draft pitch for feedback, not perfection. It anchors the first serious review of Rātā's scope, intent, and feasibility.
+
+---
+
+### 👥 **Mentor Review 1 – Full Working Review**
+
+> Initial round of full-pack review to shape and stress test the project.
 > 
-- Small group sanity check (e.g. Tomas, Grace, Graces tech contact)
-- Aimed at helping resolve uncertainty, doubt or friction before proceeding
+
+Invitees:
+
+- **Grace Esterman** – Startup Dunedin
+- **Tomas Daley** – Manager
+- **Jonathan Lopardo** – Drone tech CEO
+- **Nathan Berg** – Academic mentor
+- **Sudhir Malik** – India dev lead contact
+- **Graham Hickling** – Pest scientist
+- **Grace’s senior tech contact** – (name TBD)
+
+Purpose:
+
+- Validate the strength of the concept and scope
+- Identify strategic or technical blind spots
+- Help guide final edits across all documents
+
+Outcome:
+
+- Authorised refinement period begins
+- All 8 core documents revised to final draft status
 
 ---
 
-### 🎥 Loom #2 – *“Changes & Rationale”*
+### 🎥 Loom #2 – *“Final Project Pitch”*
 
-A second video outlining what’s changed since Loom #1 and why:
+A polished follow-up pitch incorporating feedback from Loom #1 and Mentor Review 1. It presents:
 
-- Which suggestions from Review 1 were implemented
-- Which were not, and why
-- How the overall vision has sharpened
+- Updated framing
+- Sharpened rationale
+- Final MVP definition and roadmap
+- Alignment across all strategic and technical layers
+
+This is the final checkpoint of Phase 0.
 
 ---
 
-### 👥 **Mentor Review 2 – Final Alignment Checkpoint**
+### 👥 **Mentor Review 2 – Go/No-Go Decision**
 
-> Occurs at end of Phase 0, following completion of all document drafts
+> Occurs immediately after Loom #2.
 > 
 
-**Invitees:**
+Same invitees as Review 1.
 
-- **Grace Esterman** – Startup Dunedin; ecosystem insight and strategic framing
-- **Tomas Daley** – Manager; grounded field perspective and internal clarity
-- **Jonathan Lopardo** – Drone tech CEO; GIS, startup process, and dev oversight
-- **Nathan Berg** – Academic mentor; behavioural economics and research alignment
-- **Sudhir Malik** – India dev lead contact; systems thinker with startup experience
-- **Graham Hickling** – Pest scientist; ecological realism and field-based grounding
-- **Grace’s senior tech contact** – (name TBD); technical advisor candidate
+Purpose:
 
----
-
-### ✅ **Mentor Review 2 Goals**
-
-- Validate all 8 documents in final draft form
-- Help identify potential technical mentors for Phase 1
-- Give the greenlight to proceed or pause development to Phase 1
+- Confirm all documents are now strong, consistent, and aligned
+- Assess project viability and personal readiness
+- Decide whether to proceed to Phase 1
 
 ---
 
@@ -218,13 +222,15 @@ At this stage:
 
 **Everything is now under scrutiny—from both business mentors and technical advisors.**
 
+---
+
 ### 👥 **Mentor Review 3 + Tech Mentor Review 3 – Final Gate**
 
 > Occurs at end of Phase 1
 > 
-> 
-> The **make or break moment** for Rātā’s future
-> 
+
+The **make or break moment** for Rātā’s future
+
 - Full review by business mentors + technical advisors
 - All materials must be pitch-ready and technically feasible
 - Outcome: confirm whether Rātā is ready to seek funding and begin MVP development (Phase 2), whether it needs more, or whether it is not feasible
@@ -242,7 +248,7 @@ At this stage:
 
 ---
 
-### 🚧 **Phase 2 – Conditional Kickoff: MVP Prototype Build** *(Pending Phase 1 Completion)*
+## 🚧 **Phase 2 – Conditional Kickoff: MVP Prototype Build** *(Pending Phase 1 Completion)*
 
 > “Start building only once the vision and architecture are truly validated.”
 > 
@@ -267,7 +273,7 @@ This phase is currently a placeholder. While core goals are known, the ability t
 
 ---
 
-### 🧪 **Phase 3 – Live Field Trials** *(Dependent on Phase 2 Results)*
+## 🧪 **Phase 3 – Live Field Trials** *(Dependent on Phase 2 Results)*
 
 > “Take the working prototype and test it where it matters—on the job.”
 > 
@@ -286,16 +292,12 @@ Phase 3 will not be scoped or scheduled until Phase 2 produces a stable MVP prot
 
 ---
 
-### 🔁 **Phase 4 – Targeted Iteration & Expansion** *(Scope TBD)*
+## 🔁 **Phase 4 – Targeted Iteration & Expansion**
 
 > “Now that it works—make it scale-ready.”
 > 
 
 **🛠️ Value Unlocked (Future):** Rātā becomes increasingly usable across larger teams and more complex operations.
-
-**🧭 Status:**
-
-This phase remains speculative until feedback from Phase 3 is analyzed.
 
 **Potential Focus Areas:**
 
@@ -303,10 +305,11 @@ This phase remains speculative until feedback from Phase 3 is analyzed.
 - Strengthen team-tracking overlays and map visibility
 - Begin structuring backend data for future AI readiness
 - Investigate tagging schemas for multi-species or complex jobs
+- Lightly tailor for use in adjacent industries (e.g., biosecurity, ecological restoration)
 
 ---
 
-### 🧽 **Phase 5 – Pre-Launch Stability & Readiness** *(Sequence Confirmed, Timing TBD)*
+## 🧽 **Phase 5 – Pre-Launch Stability & Readiness**
 
 > “Pressure-test before it goes public.”
 > 
@@ -321,7 +324,7 @@ This phase remains speculative until feedback from Phase 3 is analyzed.
 
 ---
 
-### 🚀 **Phase 6 – Pilot Launch & Feedback Loop**
+## 🚀 **Phase 6 – Pilot Launch & Feedback Loop**
 
 > “If it survives the wild, it’s real.”
 > 
@@ -362,7 +365,7 @@ If Phase 1 delivers validated architecture and a complete pitch pack:
 The original vision for partnerships is still valid, but formal engagement is on hold until:
 
 - MVP technical scope is confirmed
-- Pilot implementation path is chosen (DOC, OSPRI, private)
+- Pilot implementation path is chosen (DOC, OSPRI, or private conservation partner)
 - Sandbox API and data integrity protocols are ready
 
 ---
@@ -374,4 +377,4 @@ This sequence stays in place but is now explicitly phased:
 1. **Validate the Tool** – via MVP field testing (Phases 2–3)
 2. **Expand Capabilities** – only after successful pilot and feedback cycles (Phases 4–5)
 3. **Open the Ecosystem** – integrations, APIs, and third-party support (Post-launch)
-4. **Scale and Export** – only when reliability and commercial performance are proven at scale
+4. **Scale and Export** – target private conservation projects, then expand internationally into similar field operations markets (e.g., Australia, Canada, U.S. West)

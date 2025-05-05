@@ -1,5 +1,3 @@
-GitHub Readme
-
 ## 📹 Mentor Walkthrough Video
 
 Welcome! If you’re here for the mentor review package, start with this video:

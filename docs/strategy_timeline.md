@@ -1,5 +1,3 @@
-### ✍️ Final Draft:
-
 ## ✅ Strategy & Timeline – Rātā
 
 ## 🧱 **Phase 0 – Foundation & Internal Alignment**
@@ -34,29 +32,24 @@
 
 ---
 
-### 🎥 Loom #0 – *“Personal Intro & Project Context”*
+### 🎥 *Loom #1 – “Introduction for Mentors”*
 
-A short, informal introduction video that sets the scene:
+Watch Video
 
-- Who I am, where this idea came from, and why I’m building it
-- The background that makes Rātā possible now
-- A personal framing to anchor what follows in Loom #1
+This short video gives you:
 
-This is not a pitch—just a human introduction for context.
+- A welcome
 
 ---
 
-### 🎥 Loom #1 – *“First Full Draft Pitch”*
+### 🎥 *Loom #2 – “Executive Overview Walkthrough”*
 
-A complete, rough-edged walkthrough of the Rātā concept:
+Watch Video
 
-- The problem
-- The solution
-- MVP scope and early architecture
-- Go-to-market plan and roadmap
-- Long-term vision
+This video walks through:
 
-This video presents the full working draft pitch for feedback, not perfection. It anchors the first serious review of Rātā's scope, intent, and feasibility.
+- The Executive Overview document in more detail
+- How it connects to the broader vision and the problem we’re solving
 
 ---
 
@@ -69,11 +62,10 @@ Invitees:
 
 - **Grace Esterman** – Startup Dunedin
 - **Tomas Daley** – Manager
-- **Jonathan Lopardo** – Drone tech CEO
+- **Jonathan Lopardo** – DroneMate CEO
 - **Nathan Berg** – Academic mentor
 - **Sudhir Malik** – India dev lead contact
-- **Graham Hickling** – Pest scientist
-- **Grace’s senior tech contact** – (name TBD)
+- **Jamie Hickling** – Conservationist
 
 Purpose:
 
@@ -103,7 +95,7 @@ This is the final checkpoint of Phase 0.
 
 ### 👥 **Mentor Review 2 – Go/No-Go Decision**
 
-> Occurs immediately after Loom #2.
+> Occurs after Loom #2 and feedback has been gathered and used to refine the idea.
 > 
 
 Same invitees as Review 1.

@@ -1,25 +1,36 @@
-GitHub Readme
+## 📹 Mentor Walkthrough Videos
 
-## 📹 Mentor Walkthrough Video
+Welcome! If you’re here for the mentor review package, start with these quick Loom videos.
 
-Welcome! If you’re here for the mentor review package, start with this video:
-🎥 [Loom Link] – *“Introduction – Rātā Phase 0”*
+---
 
-This video gives you:
-
-- A quick intro to what Rātā is
-- A breakdown of the included documents
-- Guidance on where to focus and how you can help
-
-You can then explore the documents below at your own pace.
-
-🎥 [Loom Link] – *“Documentation closer look  – Rātā Phase 0”*
+### 🎥 [Introduction – Rātā Phase 0](https://www.loom.com/share/2c04a79d9ef14e6a8060dd8c98b7dcb4?sid=c142eedf-6fd7-40d2-8560-90c6a31a8c97)
 
 This video gives you:
+- A quick welcome
+- An overview of what Rātā is
+- How to approach the documents
 
-- A breakdown of the included documents
+---
 
-Please take the time to read through the documentation at your own pace prior to watching this video, as it is intended to provide further context.
+### 🎥 [Documentation Deep Dive – Executive Overview](https://www.loom.com/share/3c4e0085ea9c4938aa170a801e164d75?sid=f671c3bc-3d40-4b0b-930c-ca40bcf9a707)
+
+This video gives you:
+- A breakdown of the Executive Overview document
+- Key highlights and framing for the mentor review
+
+
+## 📚 Document Index
+
+You can explore the documents above at your own pace.
+All project materials are located in the `/docs` folder:
+
+1. [Executive Overview](./docs/01_Executive_Overview.md)
+2. [Problem Statement](./docs/02_Problem_Statement.md)
+3. [Solution Summary](./docs/03_Solution_Summary.md)
+4. [MVP Specification](./docs/04_MVP_Specification.md)
+5. [Strategy & Timeline](./docs/05_Strategy_Timeline.md)
+
 
 # Rātā: Real-Time Geospatial Field Operations Software
 

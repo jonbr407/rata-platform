@@ -19,11 +19,17 @@ This video gives you:
 - A breakdown of the Executive Overview document
 - Key highlights and framing for the mentor review
 
----
+
+## 📚 Document Index
 
 You can explore the documents above at your own pace.
+All project materials are located in the `/docs` folder:
 
-> **Note**: Mentors currently only
+1. [Executive Overview](./docs/01_Executive_Overview.md)
+2. [Problem Statement](./docs/02_Problem_Statement.md)
+3. [Solution Summary](./docs/03_Solution_Summary.md)
+4. [MVP Specification](./docs/04_MVP_Specification.md)
+5. [Strategy & Timeline](./docs/05_Strategy_Timeline.md)
 
 
 # Rātā: Real-Time Geospatial Field Operations Software

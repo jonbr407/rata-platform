@@ -1,24 +1,30 @@
-## 📹 Mentor Walkthrough Video
+## 📹 Mentor Walkthrough Videos
 
-Welcome! If you’re here for the mentor review package, start with this video:
-🎥 *“Introduction – Rātā Phase 0”*
-(https://www.loom.com/share/2c04a79d9ef14e6a8060dd8c98b7dcb4?sid=c142eedf-6fd7-40d2-8560-90c6a31a8c97)
+Welcome! If you’re here for the mentor review package, start with these quick Loom videos.
 
-This video gives you:
+---
 
-- A welcome introduction
-
-You can then explore the documents above at your own pace.
-Currently mentors only have access to Github, please ignore the key links at the bottom of the page. 
-
-🎥 *“Documentation closer look  – Rātā Phase 0”* (link below)
-(https://www.loom.com/share/3c4e0085ea9c4938aa170a801e164d75?sid=f671c3bc-3d40-4b0b-930c-ca40bcf9a707)
+### 🎥 [Introduction – Rātā Phase 0](https://www.loom.com/share/2c04a79d9ef14e6a8060dd8c98b7dcb4?sid=c142eedf-6fd7-40d2-8560-90c6a31a8c97)
 
 This video gives you:
+- A quick welcome
+- An overview of what Rātā is
+- How to approach the documents
 
-- A breakdown of the executive overview
+---
 
-Please take the time to read through the documentation at your own pace prior to watching this video, as it is intended to provide further context.
+### 🎥 [Documentation Deep Dive – Executive Overview](https://www.loom.com/share/3c4e0085ea9c4938aa170a801e164d75?sid=f671c3bc-3d40-4b0b-930c-ca40bcf9a707)
+
+This video gives you:
+- A breakdown of the Executive Overview document
+- Key highlights and framing for the mentor review
+
+---
+
+You can explore the documents above at your own pace.
+
+> **Note**: Mentors currently only
+
 
 # Rātā: Real-Time Geospatial Field Operations Software
 
